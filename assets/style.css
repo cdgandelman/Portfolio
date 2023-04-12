@@ -1,35 +1,73 @@
 *{
     box-sizing: border-box;
+    font-size: 21px;
 }
 header{
     display:flex;
     padding:40px;
     background-color: rgb(38, 44, 44);
     color: rgb(247, 244, 244);
-    text-align: left;
-    align-items: inline-block;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .nav img{
     width: 100%;
     height: 200px;
 }
+.about-me{
+    border-right: 5px solid;
+    width: 30%;
+    /* float: left; */
+    /* margin: 5px; */
+    height:20%;
+    margin-right:0%;
+    /* display:inline; */
+}
+.p1{
+    width: 30%;
+    border-left: 5px;
+    float:center;
+    
+}
+.me{
+    width: 50%;
+    float:right;
+    display:block;
+    margin-right:4%;
+}
+.content-section{
+    display:flex;
+    justify-content:   space-between;
+
+}
 .h2{
     color:rgb(45, 45, 48);
-    border-right: 2px solid;
+    margin-left:55%;
+    width:100%;
+    font-size: 2rem;
+
 }
 .br{
-    position:absolute;
-    bottom: 8px;
-    right: 16px;
+    position:relative;
+    top: -65px;
+    left:1500px;
     font-size:x-large;
+    color:white;
 }
 .work{
-    flex: 4;
+ 
+    /* flex: 4; */
     background-color: white;
     padding: 20px;
-    display:flex;
-    flex-wrap: wrap;
+    /* display:flex;
+    flex-wrap: wrap; */
     justify-content: center;
+}
+#work{
+    border-right: 5px solid;
+    margin:5px;
+    
+
 }
 
 .card{
@@ -38,6 +76,7 @@ header{
     border-radius: 10px;
     padding: 10 px;
     flex: 0 0 400px;
+    margin:6.5;
 }
 .card header{
     padding:20px;
@@ -50,7 +89,14 @@ header{
 }
 a[href]{
     margin:5px;
-    position: relative;
     right: 10px;
     bottom: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+a[href]:hover{
+    background-color: aqua;
+    color:black;
+    border-radius: 50%;
 }

@@ -9,56 +9,61 @@
     <body>
         <header>
             <h1>Portfolio</h1>
+            <nav>
             <a href= "#about">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact">Contact Me</a>
             <a href="#">Resume</a>
+            </nav>
         </header>
-        <nav class="nav">
-            <h1 class="br">Mr. G's Page</h1>
+        <section class="nav">
+            
             <img src="./assets/images/wood.jpg" alt="Water dripping" />
-        </nav>
+            <h1 class="br">Mr. G's Page</h1>
+        </section>
         <main>
-            <aside>
-                <h2 class="h2" id="about">About Me</h2>
-            </aside>
-            <p>My name is Chad Gandelman and this is my website to display my projects from this bootcamp and
+            <div class="content-section">
+                <aside class="about-me">
+                    <h2 class="h2" id="about">About Me</h2>
+                    <img class="me" src="./assets/images/me.JPG" alt="Me sitting in the iron throne"  />
+                </aside>
+        
+                <p class="p1">My name is Chad Gandelman and this is my website to display my projects from this bootcamp and
                 other classes. I enjoy the complexity of coding and learning the different languages and their 
                 applications.
-            </p>
-        </main>
-        <div class="work">
-            <aside>
-                <h2 class="h2" id="work">Work</h2>
-            </aside>
-            <section class="card">
-                <header>Surf Report
+                </p>
+            </div> 
+            <div class="work">
+                <aside>
+                    <h2 class="h2" id="work">Work</h2>
+                </aside>
+                <section class="card">
+                    <header>Surf Report
+                        <p>Mern Stack</p>
+                    </header>
+                    <img src="./assets/images/ocean.jpg" alt="Sailboat on Ocean" />
+                </section>
+                <section class="card">
+                    <header>LED Wall
+                        <p>Node/IoT</p>
+                    </header>
+                    <img src="./assets/images/led.jpg" alt="LED lights"/>
+                </section>
+                <section class="card">
+                    <header>Calculator
+                        <p>React/Javascript/CSS</p>
+                    </header>
+                     <img src="./assets/images/calculator.jpg" alt="scientific calculator" />
+                
+                </section>
+                <section class="card">
+                    <header>Pastel Puzzles
                     <p>Mern Stack</p>
-                </header>
-                <img src="./assets/images/ocean.jpg" alt="Sailboat on Ocean" />
-                
-            </section>
-            <section class="card">
-                <header>LED Wall
-                    <p>Node/IoT</p>
-                </header>
-                <img src="./assets/images/led.jpg" alt="LED lights"/>
-                
-            </section>
-            <section class="card">
-                <header>Calculator
-                    <p>React/Javascript/CSS</p>
-                </header>
-                <img src="./assets/images/calculator.jpg" alt="scientific calculator" />
-                
-            </section>
-            <section class="card">
-                <header>Pastel Puzzles
-                    <p>Mern Stack</p>
-                </header>
-                <img src="./assets/images/puzzle.jpg" alt="Puzzle pieces" />
-                
-            </section>
+                    </header>
+                    <img src="./assets/images/puzzle.jpg" alt="Puzzle pieces" />
+                </section>    
+            </div>    
+    
             <section class="card">
                 <header>Run Buddy
                     <p>HTML/CSS</p>
@@ -73,7 +78,8 @@
                 <img src="./assets/images/python.jpg" alt="Pythong curled up with blue eyes" />
                 
             </section>
-        </div>
+        </main>
+    
         <footer>
             <aside>
                 <h2 class="h2" id="contact">Contact Me</h2>
